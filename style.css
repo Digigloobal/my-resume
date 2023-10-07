@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #c9c9c9f0;
+    font-family: 'Arimo', sans-serif;
+}
+
+.header{
+background-color: #18a869;
+height: 250px;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.h1{
+   color: white;
+   margin-left: 200px;
+   padding-top: 50px;
+}
+.h3{
+    color: white;
+    margin-left: 200px;
+}
+.information{
+    background-color: white;
+    border: 2px solid #bbbbbb;
+    margin-top: -50px;
+    margin-left: 300px;
+    display: flex;
+ 
+    width: 800px;
+}
+img{
+
+    /* margin-left: 100px; */
+    height: 250px;
+    width: 250px;
+}
+.P1{
+    background-color: #18a869;
+    margin-left: 20px;
+   color: white; 
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   text-align: center;
+   
+}
+.P2{
+    margin: 50px; 
+    margin-left: 10px;
+    font-size: 40px;
+}
+#name{
+    color: #18a869;
+    margin-left:-50px ;
+}
+.P3{
+    margin: 0px; 
+    margin-left: 10px;
+    font-size: 20px;
+}
+.P4{
+    margin-top: 10px; 
+    margin-left: 20px;
+    font-weight: bold;
+}
+.h2{
+    margin-top: 10px;
+    text-align: center;
+    color: #18a869;
+}
+.skills{
+background-color: white;
+    border: 2px solid #bbbbbb;
+    margin-top: 10px;
+    width: 900px;
+    margin-left: 215px;
+    display: flex;
+}
+
+.P5{
+    width: 400px;
+    padding: 10px;
+}
+
+.list{
+    color:#2f94bb;
+    padding: 20px;
+}
+.TT{
+    color: #ff6262;
+    text-align: center;
+}
