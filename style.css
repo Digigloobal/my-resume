@@ -6,14 +6,16 @@
 body{
     background-color: #c9c9c9f0;
     font-family: 'Arimo', sans-serif;
+    
 }
 
 .header{
-background-color: #18a869;
+background-color: #1856a8;
 height: 250px;
-width: 100%;
+width: auto;
 margin: 0;
 padding: 0;
+
 }
 .h1{
    color: white;
@@ -30,6 +32,7 @@ padding: 0;
     margin-top: -50px;
     margin-left: 300px;
     display: flex;
+    
  
     width: 800px;
 }
@@ -40,13 +43,14 @@ img{
     width: 250px;
 }
 .P1{
-    background-color: #18a869;
+    background-color: #1856a8;
     margin-left: 20px;
    color: white; 
    height: 30px;
    width: 150px;
    margin-top: 10px;
    text-align: center;
+   display: flex;
    
 }
 .P2{
@@ -55,7 +59,7 @@ img{
     font-size: 40px;
 }
 #name{
-    color: #18a869;
+    color: #1856a8;
     margin-left:-50px ;
 }
 .P3{
@@ -71,15 +75,16 @@ img{
 .h2{
     margin-top: 10px;
     text-align: center;
-    color: #18a869;
+    color: #1856a8;
 }
 .skills{
-background-color: white;
+background-color: whitesmoke;
     border: 2px solid #bbbbbb;
     margin-top: 10px;
     width: 900px;
     margin-left: 215px;
     display: flex;
+    
 }
 
 .P5{
@@ -88,10 +93,83 @@ background-color: white;
 }
 
 .list{
-    color:#2f94bb;
+    color:black;
     padding: 20px;
 }
 .TT{
-    color: #ff6262;
+    color: #627fff;
     text-align: center;
 }
+.line{
+    width: 100%;
+
+    background: linear-gradient(to right, rgb(109, 109, 231) 80%, white 20%);
+    height: 7px;
+}
+
+.line2{
+    width: 100%;
+
+    background: linear-gradient(to right, rgb(109, 109, 231) 90%, white 10%);
+    height: 7px;
+}
+.line3{
+    width: 100%;
+
+    background: linear-gradient(to right, rgb(109, 109, 231) 70%, white 30%);
+    height: 7px;
+}
+
+    @media (max-width: 768px) {
+        /* Adjust styles for smaller screens here */
+        .header {
+            height: auto;
+            text-align: center;
+            width: 50%;
+        }
+    
+        .h1 {
+            margin-left: 0;
+            padding-top: 20px;
+            font-size: 24px;
+        }
+    
+        .h3 {
+            margin-left: 0;
+            font-size: 18px;
+        }
+    
+        .information {
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            width: 400px;
+        }
+    
+        .information img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 100px;
+            height: auto;
+        }
+    
+        .P1 {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+        .skills{
+            height: auto;
+            margin: 0;
+            width:500px ;
+        }
+        .P5{
+            padding: 5px;
+            width: 200px;
+        }
+        .list{
+            padding: 10px;
+        }
+    }
+ 
+ 
